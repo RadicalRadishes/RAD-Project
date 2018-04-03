@@ -238,9 +238,12 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="DAL\IUserRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Displayed Players\Players.cs" />
+    <Compile Include="Models\Displayed Players\User.cs" />
     <Compile Include="Models\Scores\Score.cs" />
     <Compile Include="Models\Scores\ScoresDbContext.cs" />
     <Compile Include="Models\Scores\ScoresDbInitializer.cs" />
@@ -255,8 +258,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
+    <Content Include="Content\bootstrap-Dark.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\fruit1.png" />
+    <Content Include="Content\Images\fruit2.png" />
+    <Content Include="Content\Images\fruit3.png" />
+    <Content Include="Content\Images\fruit4.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

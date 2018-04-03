@@ -21,7 +21,7 @@ namespace API
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/bootstrap-Dark.css",
                       "~/Content/site.css"));
         }
     }
