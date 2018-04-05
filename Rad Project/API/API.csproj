@@ -241,9 +241,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Scores\Score.cs" />
-    <Compile Include="Models\Scores\ScoresDbContext.cs" />
-    <Compile Include="Models\Scores\ScoresDbInitializer.cs" />
     <Compile Include="Models\Users\ApplicationDBInitializer.cs" />
     <Compile Include="Models\Users\AccountBindingModels.cs" />
     <Compile Include="Models\Users\AccountViewModels.cs" />
@@ -314,6 +311,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\DAL\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

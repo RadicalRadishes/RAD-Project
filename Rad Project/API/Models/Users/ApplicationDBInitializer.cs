@@ -15,6 +15,7 @@ namespace API.Models
         FirstName = "Peter",
         LastName = "Casey",
         PasswordHash = "Password$1",
+        Score = 10
     },
     new ApplicationUser
     {
@@ -23,6 +24,7 @@ namespace API.Models
         FirstName = "Jonny",
         LastName = "Reed",
         PasswordHash = "Password$2",
+        Score = 8
     },
     new ApplicationUser
     {
@@ -31,6 +33,7 @@ namespace API.Models
         FirstName = "Noel",
         LastName = "Coneeley",
         PasswordHash = "Password$3",
+        Score = 2
     },
         new ApplicationUser
         {
@@ -39,6 +42,7 @@ namespace API.Models
             FirstName = "Niall",
             LastName = "Nulty",
             PasswordHash = "Password$4",
+            Score = 12
         }
     );
             context.SaveChanges();
