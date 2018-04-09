@@ -129,3 +129,5 @@ C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad 
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\obj\Debug\API.csproj.GenerateResource.cache
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\obj\Debug\API.Migrations.ApplicationUserMigrations.InitialApplicationMigration.resources
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\obj\Debug\API.Migrations.ScoreMigrations.InitialScoresMigration.resources
+C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\Common.dll
+C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\Common.pdb

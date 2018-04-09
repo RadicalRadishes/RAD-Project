@@ -249,6 +249,9 @@
     <Compile Include="Migrations\ScoreMigrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\DAL\IRepository.cs" />
+    <Compile Include="Models\DAL\IUserRepository.cs" />
+    <Compile Include="Models\DAL\UserRepository.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Scores\Score.cs" />
     <Compile Include="Models\Scores\ScoresDbContext.cs" />
@@ -339,6 +342,12 @@
     <EmbeddedResource Include="Migrations\ScoreMigrations\201804090916010_Initial Scores Migration.resx">
       <DependentUpon>201804090916010_Initial Scores Migration.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{cc2dfd66-98fe-4543-a4dc-6ee541e5c4ba}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
