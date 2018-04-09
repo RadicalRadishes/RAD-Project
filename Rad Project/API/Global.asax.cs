@@ -1,5 +1,7 @@
-﻿using API.Models;
-using System.Data.Entity;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
@@ -11,16 +13,6 @@ namespace API
     {
         protected void Application_Start()
         {
-            //AreaRegistration.RegisterAllAreas();
-
-            Database.SetInitializer(new ApplicationDBInitializer());
-            ApplicationDbContext db = new ApplicationDbContext();
-            db.Database.Initialize(true);
-
-            //Database.SetInitializer(new ScoresDbInitializer());
-            //ScoresDbContext scores_db = new ScoresDbContext();
-            //scores_db.Database.Initialize(true);
-
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
