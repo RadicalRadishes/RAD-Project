@@ -1,3 +1,4 @@
+C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\ApplicationInsights.config
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\API.dll.config
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\API.dll
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\API.pdb
@@ -50,6 +51,7 @@ C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad 
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\roslyn\VBCSCompiler.exe
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\Antlr3.Runtime.dll
+C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\Common.dll
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\EntityFramework.dll
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\EntityFramework.SqlServer.dll
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\Microsoft.AI.Agent.Intercept.dll
@@ -87,6 +89,7 @@ C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad 
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\System.Web.WebPages.dll
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\System.Web.WebPages.Razor.dll
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\WebGrease.dll
+C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\Common.pdb
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\Newtonsoft.Json.xml
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\System.Net.Http.Formatting.xml
@@ -125,9 +128,5 @@ C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad 
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\obj\Debug\API.csproj.CopyComplete
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\obj\Debug\API.dll
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\obj\Debug\API.pdb
-C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\obj\Debug\API.Migrations.ApplicationUserMigrations.InitialCreate.resources
+C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\obj\Debug\API.Migrations.InitialApplicationMigration.resources
 C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\obj\Debug\API.csproj.GenerateResource.cache
-C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\obj\Debug\API.Migrations.ApplicationUserMigrations.InitialApplicationMigration.resources
-C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\obj\Debug\API.Migrations.ScoreMigrations.InitialScoresMigration.resources
-C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\Common.dll
-C:\Users\Jonny\Desktop\College\Semester 6\RAD 302\Final Project\RAD-Project\Rad Project\API\bin\Common.pdb

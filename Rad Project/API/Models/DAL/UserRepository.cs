@@ -15,15 +15,15 @@ namespace API.Models.DAL
 
         public void DeleteItem(ApplicationUser user)
         {
-            ApplicationUser U = context.ApplicationUsers.Find(user);
-            context.ApplicationUsers.Remove(U);
+            ApplicationUser U = context.Users.Find(user);
+            context.Users.Remove(U);
             context.SaveChanges();
         }
 
         public void DeleteItem(int id)
         {
-            ApplicationUser user = context.ApplicationUsers.Find(id);
-            context.ApplicationUsers.Remove(user);
+            ApplicationUser user = context.Users.Find(id);
+            context.Users.Remove(user);
             context.SaveChanges();
         }
 
@@ -34,18 +34,18 @@ namespace API.Models.DAL
 
         public IEnumerable<ApplicationUser> GetAllItems()
         {
-            return context.ApplicationUsers.ToList();
+            return context.Users.ToList();
         }
 
         public ApplicationUser GetItemByID(int id)
         {
-            ApplicationUser user = context.ApplicationUsers.Find(id);
+            ApplicationUser user = context.Users.Find(id);
             return user;
         }
 
         public void InsertItem(ApplicationUser item)
         {
-            context.ApplicationUsers.Add(item);
+            context.Users.Add(item);
         }
 
         public void Save()

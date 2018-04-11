@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{11238910-18D5-4920-B79E-BFD3BFDDFB5A}</ProjectGuid>
+    <ProjectGuid>{259C34D7-59D7-41AF-ACAB-427BB535526F}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -233,20 +233,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\ApplicationUserMigrations\201804051253382_InitialCreate.cs" />
-    <Compile Include="Migrations\ApplicationUserMigrations\201804051253382_InitialCreate.Designer.cs">
-      <DependentUpon>201804051253382_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\201804111325547_Initial Application Migration.cs" />
+    <Compile Include="Migrations\201804111325547_Initial Application Migration.Designer.cs">
+      <DependentUpon>201804111325547_Initial Application Migration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\ApplicationUserMigrations\201804082220172_Initial Application Migration.cs" />
-    <Compile Include="Migrations\ApplicationUserMigrations\201804082220172_Initial Application Migration.Designer.cs">
-      <DependentUpon>201804082220172_Initial Application Migration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\ApplicationUserMigrations\Configuration.cs" />
-    <Compile Include="Migrations\ScoreMigrations\201804090916010_Initial Scores Migration.cs" />
-    <Compile Include="Migrations\ScoreMigrations\201804090916010_Initial Scores Migration.Designer.cs">
-      <DependentUpon>201804090916010_Initial Scores Migration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\ScoreMigrations\Configuration.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\DAL\IRepository.cs" />
@@ -254,7 +245,6 @@
     <Compile Include="Models\DAL\UserRepository.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Scores\Score.cs" />
-    <Compile Include="Models\Scores\ScoresDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
@@ -289,8 +279,10 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
-    <Content Include="ApplicationInsights.config" />
-    <None Include="Scripts\jquery-1.10.2-vsdoc.js" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -333,21 +325,15 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\ApplicationUserMigrations\201804051253382_InitialCreate.resx">
-      <DependentUpon>201804051253382_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\ApplicationUserMigrations\201804082220172_Initial Application Migration.resx">
-      <DependentUpon>201804082220172_Initial Application Migration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\ScoreMigrations\201804090916010_Initial Scores Migration.resx">
-      <DependentUpon>201804090916010_Initial Scores Migration.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{cc2dfd66-98fe-4543-a4dc-6ee541e5c4ba}</Project>
       <Name>Common</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201804111325547_Initial Application Migration.resx">
+      <DependentUpon>201804111325547_Initial Application Migration.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -365,7 +351,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>46713</DevelopmentServerPort>
+          <DevelopmentServerPort>2881</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:6379/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>

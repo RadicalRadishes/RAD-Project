@@ -3,19 +3,19 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace API.Models.Scores
 {
-    [Table("High Score")]
+    [Table("HighScore")]
     public class Score
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Position { get; set; }
+        public int ID { get; set; }
 
-        [Display(Name = "High Score")]
+        [Display(Name = "HighScore")]
         public int HighScore { get; set; }
 
-        [Display(Name = "Username")]
-        public string UserName { get; set; }
+        [ForeignKey("UserId")]
+        public string UserID { get; set; }
 
-        public virtual ApplicationUser Username { get; set; }
+        public virtual ApplicationUser UserId { get; set; }
     }
 }
