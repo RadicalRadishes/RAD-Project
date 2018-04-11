@@ -66,6 +66,7 @@ namespace Pong
                 },
                  new Ball(ballTexture)
                  {
+                     //jingles
                      Position =  new Vector2((ScreenWidth/2)- (ballTexture.Width /2), (ScreenHeight / 2) - (ballTexture.Height/2)),
                      Score = _score,
                  }
